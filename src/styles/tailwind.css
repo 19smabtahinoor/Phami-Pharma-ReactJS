@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-700 text-white ring-blue-400 focus:outline-none focus:ring-4 rounded-lg transition duration-300 hover:bg-blue-800;
+  }
+}
